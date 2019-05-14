@@ -42,22 +42,31 @@ html{
     animation-delay: 15s;
 }
 
-#AFS1{
-    max-width: 30%;
-    height: auto;
+#learn{
+    padding-right: 10px;
 }
 
-#AFS2{
-    max-width: 25%;
-    height: auto;
+#slide{
+    background-color: #17a2b8;
 }
 
-#AFS3{
-    max-width: 70%;
-    height: auto;
+h3 {
+    font-family: Arial, serif;
 }
 
-#AFS4{
-    max-width: 10%;
-    height: auto;
+#aboutme {
+    font-family: Algerian, serif
+}
+
+#Intro {
+    padding-left: 20px;
+    font-family: Arial, serif
+}
+
+#infoText{
+    padding-left: 10px;
+}
+
+h1 {
+    font-family: Arial, serif
 }
