@@ -64,29 +64,34 @@
     changes you made and whoever else made.</p>
 
 <h4>How to link upto AFS</h4>
-1.Go to tools, Start SSH session, edit credentials.
-<img alt="AFS 1" src="../img/AFSlogging1.PNG" id="AFS1"/>
+<div class="row">
+    1.Go to tools, Start SSH session, edit credentials.
+    <img id="AFS1" alt="AFS 1" src="../img/AFSlogging1.PNG"/>
+</div>
 
-
+<div class="row">
 2. In the following window,
 
-<img alt="AFS 2" src="../img/AFSLogging2.PNG" id="AFS2"/>
 
-Enter the following,
-* Host: afs(any number between 1-22).njit.edu
-* Port: 22
-* User name: your ucid username
-* Password: your ucid password
+    Enter the following,
+    * Host: afs(any number between 1-22).njit.edu
+    * Port: 22
+    * User name: your ucid username
+    * Password: your ucid password
 
+    <img alt="AFS 2" src="../img/AFSLogging2.PNG" id="AFS2"/>
+</div>
+
+<div class="row">
 3. The following terminal window shows after successfully logging into AFS,
-
 <img alt="AFS 3" src="../img/AFSLogging3.PNG" id="AFS3"/>
+</div>
 
-### Deployment
+<div class="row">
+Deployment
 used to have files of a website locally and linked to a website remote
 
 1. Go to tools, Deployment, and select configuration, click on the + tab, name host, select SFTP
-<img alt="AFS 4" src="../img/AFSLogging4.PNG" id="AFS4"/>
 
 Enter the following,
 * Host: afs(any number between 1-22).njit.edu
@@ -96,21 +101,36 @@ Enter the following,
 * Test Connection. Make sure that the root path has /ucid/public html
 * Webserver URL should read: http://web.njit.edu/~ucid
 
+<img alt="AFS 4" src="../img/AFSLogging4.PNG" id="AFS4"/>
+</div>
+
+<div class="row">
 2. In the deployment window select Mappings and add / in the Deployment path
 <img alt="AFS 5" src="../img/AFSLogging5.PNG" id="AFS5"/>
+</div>
 
+<div class="row">
 3. Add a .gitignore file to your project, and include .idea inside the file, and commit
 <img alt="AFS 6" src="../img/AFSLogging6.PNG" id="AFS6"/>
+</div>
 
+<div class="row">
 4. Select Tools, Deployment, Automatic upload
+</div>
 
+<div class="row">
 5. Tools, Deployment, Browse Remote Host. The remote host w/ files will appear on the upper right side of your screen.
 <img alt="AFS 7" src="../img/AFSLogging7.PNG" id="AFS7"/>
+</div>
 
+<div class="row">
 6. Scroll over to the location of your remote host afs files (in step 5), and right click on the index.html file.
 Select the download from here option. Commit now.
+</div>
 
+<div class="row">
 7. Select VCS, import into Version Control, select share project on Github, press ok.
+</div>
 
 <h4>Website Layouts</h4>
 <p>The main two website layouts we learned this year were the Z and F layout. Z layouts are mainly used for homepages
